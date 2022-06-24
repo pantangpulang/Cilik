@@ -397,7 +397,7 @@ def cilik_about_callback(update, context):
             
             f"\n\n✗ `Pertama Tambahkan` @babu_divaBot `Ke Grup Anda Dengan Menekan` [Disini](http://t.me/babu_divaBot?startgroup=true)\n"
             f"\n✗ `Setelah Menambahkan, Promosikan saya Sebagai Admin Secara Manual Dengan Hak Penuh Untuk Pengalaman Yang Lebih Baik.`\n"
-            f"\n✗ `Kemudian Kirim ` `/admincache@{BOT_USERNAME}` `Di Obrolan Itu Untuk Menyegarkan Daftar Admin Di Database Saya.`\n"
+            f"\n✗ `Kemudian Kirim ` `/admincache@babu_divaBot` `Di Obrolan Itu Untuk Menyegarkan Daftar Admin Di Database Saya.`\n"
             f"\n*Semua Selesai Sekarang Gunakan Tombol Yang Ada Di Bawah Ini Untuk Mengetahui Tentang Penggunaan!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -472,7 +472,7 @@ def cilik_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> CREDIT UNTUK Assistant Diva DEV'S</b>\n"
             
-            f"\nBerikut Beberapa Developers Yang Membantu Pembuatan {BOT_NAME}",
+            f"\nBerikut Beberapa Developers Yang Membantu Pembuatan Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
