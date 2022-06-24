@@ -86,7 +86,6 @@ PM_START_TEXT = """
 
 ✪ Assistant Diva is a bot manager + music to manage your group well.
 ✪ Press /help for Help.
-✪ Maintaned By @muk_ajaa.
 """
 
 buttons = [
