@@ -101,7 +101,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name} 🤖", callback_data="cilik_about"),
+        InlineKeyboardButton(text=f"About 🤖", callback_data="cilik_about"),
     ],
 ]
 
@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 Hi, I'm {dispatcher.bot.first_name}. Nice to meet You.",
+            f"👋 Hi, I'm Assistant Diva. Nice to meet You.",
             parse_mode=ParseMode.HTML
        )
 
@@ -396,7 +396,7 @@ def cilik_about_callback(update, context):
         query.message.edit_text(
             text=f"*Berikut Bantuan Dasar Tentang Cara menggunakan Saya?*"
             
-            f"\n\n✗ `Pertama Tambahkan` {dispatcher.bot.first_name} `Ke Grup Anda Dengan Menekan` [Disini](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
+            f"\n\n✗ `Pertama Tambahkan` @babu_divaBot `Ke Grup Anda Dengan Menekan` [Disini](http://t.me/babu_divaBot?startgroup=true)\n"
             f"\n✗ `Setelah Menambahkan, Promosikan saya Sebagai Admin Secara Manual Dengan Hak Penuh Untuk Pengalaman Yang Lebih Baik.`\n"
             f"\n✗ `Kemudian Kirim ` `/admincache@{BOT_USERNAME}` `Di Obrolan Itu Untuk Menyegarkan Daftar Admin Di Database Saya.`\n"
             f"\n*Semua Selesai Sekarang Gunakan Tombol Yang Ada Di Bawah Ini Untuk Mengetahui Tentang Penggunaan!*\n"
