@@ -424,7 +424,7 @@ def cilik_about_callback(update, context):
         query.message.edit_text(
             text=f"*Mari Jadikan Grup Anda Sedikit Efektif Sekarang*"
             
-            f"\n✗ `Selamat, {BOT_NAME} Sekarang Siap Mengelola Grup Anda.`"
+            f"\n✗ `Selamat, Assistant Diva Sekarang Siap Mengelola Grup Anda.`"
             f"\n\n*Alat Admin*"
             f"\n✗ `Alat Admin Dasar Membantu Anda Melindungi Dan Memperkuat Grup Anda.`"
             f"\n✗ `Anda Dapat Melarang Anggota, Menendang Anggota, Mempromosikan Seseorang Sebagai Admin Melalui Perintah Bot.`"
@@ -452,7 +452,7 @@ def cilik_about_callback(update, context):
         )
     elif query.data == "cilik_support":
         query.message.edit_text(
-            text="* Obrolan Dukungan {BOT_NAME}*"
+            text="* Obrolan Dukungan Assistant Diva*"
             
             "\n\n✗ `Bergabunglah Dengan Grup/Saluran Dukungan`",
             parse_mode=ParseMode.MARKDOWN,
@@ -471,7 +471,7 @@ def cilik_about_callback(update, context):
         )
     elif query.data == "cilik_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT UNTUK {BOT_NAME} DEV'S</b>\n"
+            text=f"<b> CREDIT UNTUK Assistant Diva DEV'S</b>\n"
             
             f"\nBerikut Beberapa Developers Yang Membantu Pembuatan {BOT_NAME}",
             parse_mode=ParseMode.HTML,
