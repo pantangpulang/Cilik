@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello I'm Assistant Diva [⭐️](https://telegra.ph/file/49d28b1cd24e029b2574c.jpg)*
+*Hello I'm Assistant Diva [✨](https://telegra.ph/file/49d28b1cd24e029b2574c.jpg).*
 
 ✪ Assistant Diva is a bot manager + music to manage your group well.
 ✪ Press /help for Help.
