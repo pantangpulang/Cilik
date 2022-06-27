@@ -370,7 +370,7 @@ def cilik_about_callback(update, context):
                             text="👮‍♂️ Mᴀɴᴀɢᴇ", callback_data="help_back"
                         ),
                         InlineKeyboardButton(
-                            text="Mᴜsɪᴄ 🎶", url="https://t.me/babudivach/2"
+                            text="Mᴜsɪᴄ 🎶", url="https://t.me/babudivach/11"
                         ),
                     ],
                     [InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="cilik_back")],
@@ -815,7 +815,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "👋 Hi, i'm ready.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
