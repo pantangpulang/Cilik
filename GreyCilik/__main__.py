@@ -90,17 +90,17 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+        InlineKeyboardButton(text="🗂 ᴍᴇɴᴜ ᴘᴇʀɪɴᴛᴀʜ", callback_data="cilik_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help ❓", callback_data="cilik_"),
+        InlineKeyboardButton(text="💾 ᴄʜᴀɴɴᴇʟ, url=f"t.me/abtdiv"),
         InlineKeyboardButton(
             text="Support 💌", url=f"t.me/virtualeartt"
         ),
     ],
     [
-        InlineKeyboardButton(text=f"About 🤖", callback_data="cilik_about"),
+        InlineKeyboardButton(
+            text="➗ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
