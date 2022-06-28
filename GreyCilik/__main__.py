@@ -99,9 +99,6 @@ buttons = [
             text="sᴜᴘᴘᴏʀᴛ 💌", callback_data="cilik_support"),
         ),
     ],
-    [
-        InlineKeyboardButton(text=f"⚙️ ᴍᴀɴᴀɢᴇᴅ ⚙️", url=f"t.me/muk_ajaa"),
-    ],
 ]
 
 
