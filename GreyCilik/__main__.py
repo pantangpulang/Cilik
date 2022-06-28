@@ -89,19 +89,18 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [
-        InlineKeyboardButton(text="🗂 ᴍᴇɴᴜ ᴘᴇʀɪɴᴛᴀʜ", callback_data="cilik_"),
+     [
+        InlineKeyboardButton(
+            text="➗ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
     [
+        InlineKeyboardButton(text="🗂 ᴍᴇɴᴜ ᴘᴇʀɪɴᴛᴀʜ", callback_data="cilik_"),
         InlineKeyboardButton(
-            text="Support 💌, callback_data="cilik_support"),
-        InlineKeyboardButton(
-            text="📌 ᴏᴡɴᴇʀ", url=f"https://t.me/abtdiv"),"
+            text="sᴜᴘᴘᴏʀᴛ 💌", callback_data="cilik_support"),
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="➗ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴜᴘ ➗", url=f"t.me/{bu}?startgroup=new"),
+        InlineKeyboardButton(text=f"⚙️ ᴍᴀɴᴀɢᴇᴅ ⚙️", url=f"t.me/muk_ajaa"),
     ],
 ]
 
