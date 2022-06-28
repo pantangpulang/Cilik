@@ -93,9 +93,10 @@ buttons = [
         InlineKeyboardButton(text="🗂 ᴍᴇɴᴜ ᴘᴇʀɪɴᴛᴀʜ", callback_data="cilik_"),
     ],
     [
-        InlineKeyboardButton(text="💾 ᴄʜᴀɴɴᴇʟ, url=f"t.me/abtdiv"),
         InlineKeyboardButton(
-            text="Support 💌", url=f"t.me/virtualeartt"
+            text="Support 💌, callback_data="cilik_support"),
+        InlineKeyboardButton(
+            text="📌 ᴏᴡɴᴇʀ", url=f"https://t.me/abtdiv"),"
         ),
     ],
     [
@@ -458,8 +459,8 @@ def cilik_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/virtualeartt"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/abtdiv"),
+                    InlineKeyboardButton(text="ɢʀᴜᴘ", url="https://t.me/virtualeartt"),
+                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/abtdiv"),
                  ],
                  [
                     InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="cilik_about"),
