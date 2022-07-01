@@ -100,7 +100,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=f"ᴀʙᴏᴜᴛ 🤖", callback_data="cilik_"),
+        InlineKeyboardButton(text=f"ᴀʙᴏᴜᴛ 🤖", callback_data="cilik_about"),
     ],
 ]
 
